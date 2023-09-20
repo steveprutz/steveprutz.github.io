@@ -1,41 +1,54 @@
 <html>
 <form action="action_page.php">
   <div class="container">
-    <h3>New User Account Setup</h3>
+    <h3>New User Account Setup (CONCEPT)</h3>
 
-Form Locale: en-US
+<p>
+
+<label for="fullname">🧑‍💼 <b>Legal Full Name</b></label>
+	
+<br>
+
+<input type="text" name="fullname" size="50" maxlength="2500" required autofocus> (required)
 
 <br>
 
-DEMONSTRATION! NOT REAL!
+Your official name, for business matters only. Seen only by authorized administrators 🔒
+
+</p>
 
 <hr>
 
 <p>
-    <label for="fullname">🧑‍💼 <b>Legal Full Name</b></label>
-    <input type="text" name="fullname" size="50" maxlength="2500" required autofocus> (required)
-</p>
 
-Your official name for business matters only. Seen only by authorized administrators 🔒
+<label for="friendlyname">😎 <b>Preferred Friendly Name</b></label>
 
-<hr>
+<br>
+	
+<input type="text" name="friendlyname" size="50" maxlength="2500"> (optional)
 
-<p>
-    <label for="friendlyname">😎 <b>Preferred Friendly Name</b></label>
-    <input type="text" name="friendlyname" size="50" maxlength="2500"> (optional)
-</p>
+<br>
 
 What do you want others to call you? This will appear on social elements of the app 👁️
 
-<hr>
-
-
-<p>
-    <label for="pronouncedname">🗣️ <b>Name Pronunciation</b></label>
-    <input type="file" name="pronouncedname"> (optional)
 </p>
 
+<hr>
+
+<p>
+
+<label for="pronouncedname">🗣️ <b>Name Pronunciation</b></label> <!-- DOESN'T FUNCTION! -->
+
+<br>
+	
+<input type="file" name="pronouncedname"> (optional)
+	
+<br>
+	
 Upload an audio recording of your name 🔊
+
+</p>
+
 <hr>
 
 <p> 
@@ -61,23 +74,27 @@ Upload an audio recording of your name 🔊
 
 <p>
     <label for="notes1">📝 <b>Notes</b></label>
-	<br>
+
+<br>
+
+<textarea name=notes1" rows="3" cols="50"></textarea>  (optional)
     <!-- SINGLE ROW FIELD VERSION: <input type="text" name="notes1" size="75" maxlength="2500"> (optional) -->
-  <textarea name=notes1" rows="3" cols="50"></textarea>  (optional)
 
-</p>
-
-</form>
+<br>
 
 Any special notes about your name, pronunciation, or pronouns?
 
-<hr>
-
-<br>
+</p>
 
     <div class="clearfix">
       <button type="submit" class="signupbtn">NEXT TO DEMOGRAPHICS > </button>
     </div>
   </div>
 </form>
+
+<center>
+Page Locale: en-US
+<br>
+©Steven Prutzman
+</center>
 </html>
