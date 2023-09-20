@@ -1,0 +1,89 @@
+<html>
+<p>Choose your preferred personal pronouns:</p>
+<form>
+<input type="radio" id="him" name="personal_pronouns" value="HeHim">
+<label for="hehim">He/Him</label>
+<br>
+<input type="radio" id="her" name="personal_pronouns" value="SheHer">
+<label for="sheher">She/Her</label>
+<br>
+<input type="radio" id="them" name="personal_pronouns" value="TheyThem">
+<label for="they">They/Them</label>
+<br>
+<input type="radio" id="nopronouns" name="personal_pronouns" value="NoPronouns">
+<label for="none">No Pronouns (use Name only)</label>
+<br>
+<input type="radio" id="custom" name="personal_pronouns" value="Custom">
+<label for="custom">Custom (specify)</label>
+</form>
+</html>
+<li class="application-question">
+<div class="application-label multiple-select">Pronouns</div>
+<div class="application-field">
+<ul data-qa="candidatePronounsCheckboxes" id="candidatePronounsCheckboxes">
+
+<div class="column-wrapper"><div class="table-row"><li class="column"><label><input type="checkbox" name="pronouns" value="He/him" class="standardPronounsOption" />
+<span class="application-answer-alternative">He/him</span></label></li><li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="She/her" class="standardPronounsOption" />
+<span class="application-answer-alternative">She/her</span>
+</label>
+</li>
+<li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="They/them" class="standardPronounsOption" />
+<span class="application-answer-alternative">They/them</span>
+</label>
+</li>
+</div>
+<div class="table-row">
+<li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="Xe/xem" class="standardPronounsOption" />
+<span class="application-answer-alternative">Xe/xem</span>
+</label>
+</li><li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="Ze/hir" class="standardPronounsOption" />
+<span class="application-answer-alternative">Ze/hir</span>
+</label>
+</li><li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="Ey/em" class="standardPronounsOption" />
+<span class="application-answer-alternative">Ey/em</span>
+</label></li></div><div class="table-row">
+<li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="Hir/hir" class="standardPronounsOption" />
+<span class="application-answer-alternative">Hir/hir</span>
+</label></li><li class="column">
+<label>
+<input type="checkbox" name="pronouns" value="Fae/faer" class="standardPronounsOption" />
+<span class="application-answer-alternative">Fae/faer</span>
+</label>
+</li>
+<li class="column">
+<label><input type="checkbox" name="pronouns" value="Hu/hu" class="standardPronounsOption" />
+<span class="application-answer-alternative">Hu/hu</span>
+</label>
+</li>
+</div>
+</div>
+<li>
+<label>
+<input type="checkbox" name="pronouns" value="Use name only" id="useNameOnlyPronounsOption" />
+<span class="application-answer-alternative">Use name only</span>
+</label>
+</li>
+<hr>
+<li>
+<label>
+<input type="checkbox" value="Custom" id="customPronounsOption" />
+<span class="application-answer-alternative">Custom</span>
+</label>
+<input class="card-field-input" style="display:none;" id="customPronounsTextField" type="text" maxlength="40" placeholder="Write here..." name="pronouns" />
+</li>
+<p class="description">Let the employer know what pronouns you use so that they can address you correctly.</p>
+</ul>
+</div>
+</li>
