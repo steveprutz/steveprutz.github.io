@@ -1,3 +1,5 @@
 # steveprutz.github.io
 
-A concept design for a new user account creation form. See https://steveprutz.github.io/
+Testing area for SP code. See https://steveprutz.github.io/
+
+Related: www.steveprutz.com
