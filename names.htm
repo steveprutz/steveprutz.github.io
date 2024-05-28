@@ -1,0 +1,103 @@
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+</head>
+<form action="action_page.php">
+  <div class="container">
+    <h3>New User Account Setup (CONCEPT)</h3>
+
+<p>
+
+<label for="fullname">🧑‍💼 <b>Legal Full Name</b></label>
+	
+<br>
+
+<input type="text" name="fullname" size="50" maxlength="2500" required autofocus> (required)
+
+<br>
+
+Your official name, for business matters only. Seen only by authorized administrators 🔒
+
+</p>
+
+<hr>
+
+<p>
+
+<label for="friendlyname">😎 <b>Preferred Friendly Name</b></label>
+
+<br>
+	
+<input type="text" name="friendlyname" size="50" maxlength="2500"> (optional)
+
+<br>
+
+What do you want others to call you? This will appear on social elements of the app 👁️
+
+</p>
+
+<hr>
+
+<p>
+
+<label for="pronouncedname">🗣️ <b>Name Pronunciation</b></label> <!-- DOESN'T FUNCTION! -->
+
+<br>
+	
+<input type="file" name="pronouncedname"> (optional)
+	
+<br>
+	
+Upload an audio recording of your name 🔊
+
+</p>
+
+<hr>
+
+<p> 
+🚻 <b>Personal Pronouns</b> (required)
+</p>
+
+<input type="radio" id="him" name="personal_pronouns" value="HeHim">
+<label for="hehim">He/Him</label> 
+<br>
+<input type="radio" id="her" name="personal_pronouns" value="SheHer">
+<label for="sheher">She/Her</label>
+<br>
+<input type="radio" id="them" name="personal_pronouns" value="TheyThem">
+<label for="TheyThem">They/Them</label>
+<br>
+<input type="radio" id="nopronouns" name="personal_pronouns" value="NoPronouns">
+<label for="NoPronouns">No Pronouns (use Name only)</label>
+<br>
+<input type="radio" id="custom" name="personal_pronouns" value="Custom">
+<label for="custom">Custom (specify in the Notes)</label>
+
+<hr>
+
+<p>
+    <label for="notes1">📝 <b>Notes</b></label>
+
+<br>
+
+<textarea name=notes1" rows="3" cols="50"></textarea>  (optional)
+    <!-- SINGLE ROW FIELD VERSION: <input type="text" name="notes1" size="75" maxlength="2500"> (optional) -->
+
+<br>
+
+Any special notes about your name, pronunciation, or pronouns?
+
+</p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">NEXT TO DEMOGRAPHICS > </button>
+    </div>
+  </div>
+</form>
+
+<center>
+Page Locale: en-US
+<br>
+© <a href="https://www.steveprutz.com" target="_blank">Steven Prutzman</a>
+</center>
+</html>
